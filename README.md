@@ -7,6 +7,7 @@ Sample macOS project using Objective-C that shows how to create a simple animate
 3. Set max value for countdown using maxSeconds
 4. Set current value for countdown using secondsDigit
 5. Current seconds will be shown in center of view and font size is dynamic based on view size
+6. Note: please change view center and radious of circle in onDraw method as per the frame of your view (I haven't made that dynamic, though I should have)
 
 You can change colour and font etc in onDraw method of CountDownCircleView. 
 

@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7DFC3351DE3FEFE0068B92B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DFC3341DE3FEFE0068B92B /* AppDelegate.m */; };
+		C7DFC3381DE3FEFE0068B92B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DFC3371DE3FEFE0068B92B /* main.m */; };
+		C7DFC33A1DE3FEFF0068B92B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DFC3391DE3FEFF0068B92B /* Assets.xcassets */; };
+		C7DFC33D1DE3FEFF0068B92B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7DFC33B1DE3FEFF0068B92B /* MainMenu.xib */; };
+		C7DFC3461DE3FF310068B92B /* CountDownCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DFC3451DE3FF310068B92B /* CountDownCircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7DFC3301DE3FEFE0068B92B /* SimpleCircularCountDownAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCircularCountDownAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DFC3331DE3FEFE0068B92B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7DFC3341DE3FEFE0068B92B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7DFC3371DE3FEFE0068B92B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7DFC3391DE3FEFF0068B92B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7DFC33C1DE3FEFF0068B92B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C7DFC33E1DE3FEFF0068B92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DFC3441DE3FF310068B92B /* CountDownCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownCircleView.h; sourceTree = "<group>"; };
+		C7DFC3451DE3FF310068B92B /* CountDownCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownCircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7DFC32D1DE3FEFE0068B92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7DFC3271DE3FEFE0068B92B = {
+			isa = PBXGroup;
+			children = (
+				C7DFC3321DE3FEFE0068B92B /* SimpleCircularCountDownAnimation */,
+				C7DFC3311DE3FEFE0068B92B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7DFC3311DE3FEFE0068B92B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFC3301DE3FEFE0068B92B /* SimpleCircularCountDownAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7DFC3321DE3FEFE0068B92B /* SimpleCircularCountDownAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFC3331DE3FEFE0068B92B /* AppDelegate.h */,
+				C7DFC3341DE3FEFE0068B92B /* AppDelegate.m */,
+				C7DFC3391DE3FEFF0068B92B /* Assets.xcassets */,
+				C7DFC33B1DE3FEFF0068B92B /* MainMenu.xib */,
+				C7DFC33E1DE3FEFF0068B92B /* Info.plist */,
+				C7DFC3361DE3FEFE0068B92B /* Supporting Files */,
+				C7DFC3441DE3FF310068B92B /* CountDownCircleView.h */,
+				C7DFC3451DE3FF310068B92B /* CountDownCircleView.m */,
+			);
+			path = SimpleCircularCountDownAnimation;
+			sourceTree = "<group>";
+		};
+		C7DFC3361DE3FEFE0068B92B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFC3371DE3FEFE0068B92B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7DFC32F1DE3FEFE0068B92B /* SimpleCircularCountDownAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DFC3411DE3FEFF0068B92B /* Build configuration list for PBXNativeTarget "SimpleCircularCountDownAnimation" */;
+			buildPhases = (
+				C7DFC32C1DE3FEFE0068B92B /* Sources */,
+				C7DFC32D1DE3FEFE0068B92B /* Frameworks */,
+				C7DFC32E1DE3FEFE0068B92B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCircularCountDownAnimation;
+			productName = SimpleCircularCountDownAnimation;
+			productReference = C7DFC3301DE3FEFE0068B92B /* SimpleCircularCountDownAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7DFC3281DE3FEFE0068B92B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Aripra Infotech Pvt Ltd";
+				TargetAttributes = {
+					C7DFC32F1DE3FEFE0068B92B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C7DFC32B1DE3FEFE0068B92B /* Build configuration list for PBXProject "SimpleCircularCountDownAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7DFC3271DE3FEFE0068B92B;
+			productRefGroup = C7DFC3311DE3FEFE0068B92B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7DFC32F1DE3FEFE0068B92B /* SimpleCircularCountDownAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7DFC32E1DE3FEFE0068B92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFC33A1DE3FEFF0068B92B /* Assets.xcassets in Resources */,
+				C7DFC33D1DE3FEFF0068B92B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7DFC32C1DE3FEFE0068B92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFC3461DE3FF310068B92B /* CountDownCircleView.m in Sources */,
+				C7DFC3381DE3FEFE0068B92B /* main.m in Sources */,
+				C7DFC3351DE3FEFE0068B92B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7DFC33B1DE3FEFF0068B92B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7DFC33C1DE3FEFF0068B92B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7DFC33F1DE3FEFF0068B92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7DFC3401DE3FEFF0068B92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7DFC3421DE3FEFF0068B92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleCircularCountDownAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aripra.SimpleCircularCountDownAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7DFC3431DE3FEFF0068B92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleCircularCountDownAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aripra.SimpleCircularCountDownAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7DFC32B1DE3FEFE0068B92B /* Build configuration list for PBXProject "SimpleCircularCountDownAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DFC33F1DE3FEFF0068B92B /* Debug */,
+				C7DFC3401DE3FEFF0068B92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DFC3411DE3FEFF0068B92B /* Build configuration list for PBXNativeTarget "SimpleCircularCountDownAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DFC3421DE3FEFF0068B92B /* Debug */,
+				C7DFC3431DE3FEFF0068B92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7DFC3281DE3FEFE0068B92B /* Project object */;
+}

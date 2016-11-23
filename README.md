@@ -1,5 +1,5 @@
 # SimpleCircularCountDownAnimation
-Sample macOS project that shows how to create a simple animated countdown effect.
+Sample macOS project using Objective-C that shows how to create a simple animated countdown effect.
 
 # Steps to use
 1. Add CountDownCircleView.h/m files in project
